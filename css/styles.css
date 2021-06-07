@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Exo2';
+  src: url(/fonts/Exo_2.ttf);
+}
+@font-face {
+  font-family: 'helveticaneuecyr-bold';
+  src: url(/fonts/helveticaneuecyr-bold.otf);
+}
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  src: url(/fonts/HelveticaNeueCyr.otf);
+}
+@font-face {
+  font-family: 'MyriadProRegular';
+  src: url(/fonts/MyriadProRegular.otf);
+}
+@font-face {
+  font-family: 'Parangon530C';
+  src: url(/fonts/Parangon530C.otf);
+}
+/*========================================================================*/
+
 /* Указываем box sizing */
 *,
 *::before,
@@ -75,4 +97,29 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/*========================================================================*/
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+/*========================================================================*/
+/*Window*/
+
+/*========================================================================*/
+.window {
+  background: url(/img/1window/IMG_3644.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.window::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: #747696;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
 }
