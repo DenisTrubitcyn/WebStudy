@@ -140,6 +140,7 @@ select {
   line-height: 1.2;
   font-family: 'PT Sans Caption';
   font-size: 28px;
+  margin-bottom: 50px;
 }
 .window__cards {
   display: flex;
