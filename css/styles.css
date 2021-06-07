@@ -103,12 +103,16 @@ select {
 .container {
   width: 1250px;
   margin: 0 auto;
+  z-index: 100;
 }
 /*========================================================================*/
 /*Window*/
 
 /*========================================================================*/
 .window {
+  display: flex;
+  text-align: center;
+  padding: 204px 207px 125px 215px;
   background: url(/img/1window/IMG_3644.jpg) no-repeat;
   background-size: cover;
   color: #fff;
@@ -118,8 +122,45 @@ select {
   content: '';
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
   background-color: #747696;
   opacity: 0.5;
   position: absolute;
   z-index: 1;
+}
+.window__title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Parangon530C';
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.window__text {
+  line-height: 1.2;
+  font-family: 'PT Sans Caption';
+  font-size: 28px;
+}
+.window__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.window__card {
+  height: 165px;
+  width: 252px;
+  border: 2px solid #fff;
+}
+
+.card__icon {
+  height: 37px;
+  width: 37px;
+  fill: #fff;
+}
+.card__title {
+  font-size: 48px;
+  font-family: 'Parangon530C';
+}
+.card__text {
+  font-family: 'PT Sans Caption';
+  font-size: 18px;
 }
