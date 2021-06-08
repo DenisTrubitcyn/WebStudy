@@ -355,6 +355,7 @@ select {
   justify-content: space-evenly;
   position: relative;
   z-index: 1;
+  margin-bottom: 130px;
 }
 .dev--card {
   width: 369px;
@@ -492,4 +493,39 @@ select {
   margin-right: 46px;
   position: relative;
   z-index: 2;
+}
+/*======================================================================*/
+/*Be the first*/
+/*======================================================================*/
+.bethefirst__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.bethefirst--bgc__title {
+  width: 627px;
+  height: 64px;
+  background: url(/img/4one_searche/BE_THE_FIRST.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 32px;
+}
+.bethefirst__title {
+  padding: 12px 0 0 58px;
+  letter-spacing: 3.5px;
+  font-family: 'Parangon530C';
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.bethefirst__text {
+  font-family: Arial;
+  font-size: 24px;
+  width: 596px;
+  height: 262px;
+  padding-left: 58px;
+  line-height: 2;
+}
+.bethefirst__partners {
+  margin-right: 156px;
+}
+.partners__google {
+  margin-bottom: 42px;
 }
