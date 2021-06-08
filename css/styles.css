@@ -66,8 +66,8 @@ ol[class] {
 }
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+a {
+  text-decoration: none;
 }
 
 /* Упрощаем работу с изображениями */
@@ -144,7 +144,7 @@ select {
 }
 .window__cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .window__card {
   height: 165px;
@@ -165,3 +165,6 @@ select {
   font-family: 'PT Sans Caption';
   font-size: 18px;
 }
+/*======================================================================*/
+/*Navbar*/
+/*======================================================================*/
