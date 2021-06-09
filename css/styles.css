@@ -22,6 +22,10 @@
   font-family: 'Parangon530C';
   src: url(/fonts/Parangon530C.otf);
 }
+@font-face {
+  font-family: 'Tahoma';
+  src: url(/fonts/Tahoma.ttf);
+}
 /*========================================================================*/
 
 /* Указываем box sizing */
@@ -108,7 +112,6 @@ select {
 .container {
   width: 1250px;
   margin: 0 auto;
-  z-index: 100;
 }
 /*========================================================================*/
 /*Window*/
@@ -138,18 +141,24 @@ select {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: 'Parangon530C';
-  font-size: 48px;
+  font-size: 43px;
   margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
 }
 .window__text {
   line-height: 1.2;
   font-family: 'PT Sans Caption';
   font-size: 28px;
   margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
 }
 .window__cards {
   display: flex;
   justify-content: space-around;
+  position: relative;
+  z-index: 2;
 }
 .window__card {
   height: 165px;
@@ -528,4 +537,143 @@ select {
 }
 .partners__google {
   margin-bottom: 42px;
+}
+/*======================================================================*/
+/*Our Projects*/
+/*======================================================================*/
+.ourprojects__titlebgc {
+  height: 144px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #303263;
+}
+.ourprojects__title--item {
+  display: block;
+  text-align: center;
+  opacity: 0.3;
+  font-size: 96px;
+  letter-spacing: 3px;
+  font-family: 'Tahoma';
+  position: relative;
+}
+.ourprojects__title {
+  display: inline-block;
+  color: #fff;
+  left: 400px;
+  bottom: 90px;
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-family: 'Parangon530C';
+  position: relative;
+  z-index: 3;
+}
+
+.ourprojects__site {
+  height: 754px;
+  cursor: pointer;
+}
+.ourprojects__biginner {
+  display: flex;
+  height: 426px;
+  width: 100%;
+}
+.ourprojects__item {
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -webkit-transition: all 0.6s ease-out;
+  position: relative;
+}
+.hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 187, 101, 0.9);
+  font-family: 'Exo2';
+  color: #fff;
+  position: absolute;
+
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -webkit-transition: all 0.6s ease-out;
+}
+.hover__title {
+  text-transform: uppercase;
+  font-size: 3.6em;
+}
+.hover__about {
+  font-size: 1.5em;
+}
+.hover:hover {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: 0.6s;
+}
+.ourprojects__item:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 0.6s;
+}
+.img1 {
+  background: url(/img/5project/1.jpg) no-repeat;
+  background-size: cover;
+  width: 791.5px;
+}
+.img2 {
+  background: url(/img/5project/2.jpg) no-repeat;
+  background-size: cover;
+  width: 791.5px;
+}
+
+.ourprojects__smallinner {
+  display: flex;
+}
+.img3 {
+  background: url(/img/5project/3.jpg) no-repeat;
+  background-size: cover;
+  width: 395px;
+  height: 324px;
+}
+.img4 {
+  background: url(/img/5project/4.jpg) no-repeat;
+  background-size: cover;
+  width: 395px;
+}
+.img5 {
+  background: url(/img/5project/5.jpg) no-repeat;
+  background-size: cover;
+  width: 395px;
+}
+.img6 {
+  background: url(/img/5project/6.jpg) no-repeat;
+  background-size: cover;
+  width: 395px;
+}
+.ourpojects__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 144px;
+}
+.ourprojects__button {
+  height: 70px;
+  width: 242px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Exo2';
+  font-size: 30px;
+  background-color: #6a6b8e;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ourprojects__button:hover {
+  background-color: #f7bb65;
+  box-shadow: 2px 2px rgb(229, 146, 28);
+  transition: 0.7s;
 }
