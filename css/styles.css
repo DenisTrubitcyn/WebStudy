@@ -3,6 +3,10 @@
   src: url(/fonts/Exo_2.ttf);
 }
 @font-face {
+  font-family: 'UniSansCaps';
+  src: url(/fonts/unisanscaps.otf);
+}
+@font-face {
   font-family: 'futura-bold-bt';
   src: url(/fonts/futura-bold-bt.ttf);
 }
@@ -112,6 +116,7 @@ select {
 .container {
   width: 1250px;
   margin: 0 auto;
+  z-index: 2;
 }
 /*========================================================================*/
 /*Window*/
@@ -132,8 +137,8 @@ select {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #747696;
-  opacity: 0.5;
+  background-color: #000;
+  opacity: 0.3;
   position: absolute;
   z-index: 1;
 }
@@ -143,22 +148,16 @@ select {
   font-family: 'Parangon530C';
   font-size: 43px;
   margin-bottom: 40px;
-  position: relative;
-  z-index: 2;
 }
 .window__text {
   line-height: 1.2;
   font-family: 'PT Sans Caption';
   font-size: 28px;
   margin-bottom: 50px;
-  position: relative;
-  z-index: 2;
 }
 .window__cards {
   display: flex;
   justify-content: space-around;
-  position: relative;
-  z-index: 2;
 }
 .window__card {
   height: 165px;
@@ -309,14 +308,14 @@ select {
   position: relative;
   margin-bottom: 85px;
 }
-.credo::after {
+.credo::before {
   content: '';
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #747696;
-  opacity: 0.6;
+  background-color: #000;
+  opacity: 0.3;
   position: absolute;
   z-index: 1;
 }
@@ -327,14 +326,14 @@ select {
   letter-spacing: 5px;
   font-size: 50px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .credo__text {
   font-family: 'HelveticaNeueCyr';
   font-size: 24px;
   line-height: 40px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 /*======================================================================*/
 /*Developers*/
@@ -674,6 +673,7 @@ select {
   background-color: #6a6b8e;
   cursor: pointer;
   border-radius: 10px;
+  border-color: transparent;
 }
 .ourprojects__button:hover {
   background-color: #f7bb65;
@@ -685,7 +685,6 @@ select {
 /*Adaptiv*/
 /*======================================================================*/
 .adaptiv {
-  position: relative;
   margin-bottom: 168px;
 }
 .adaptiv__inner {
@@ -719,5 +718,250 @@ select {
   width: 660px;
   position: absolute;
   right: 0;
+  z-index: 2;
+}
+/*======================================================================*/
+/*Trade-in*/
+/*======================================================================*/
+.tradein {
+  background: url(/img/7trade-in/close-meeting.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 160px;
+}
+.tradein::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  position: absolute;
   z-index: 1;
+}
+.tradein__title {
+  font-family: 'UniSansCaps';
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 76px;
+  position: relative;
+  z-index: 1;
+}
+.tradein__cards {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.tradein__card {
+  color: #fff;
+}
+.tradiin__card--item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.tradein__card--icon {
+  width: 70px;
+  height: 50px;
+  fill: #00b9e7;
+}
+.tradein__card--title {
+  text-transform: uppercase;
+  font-family: 'Parangon530C';
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+.tradein__card--text {
+  height: 300px;
+  width: 400px;
+  font-size: 18px;
+  font-family: Arial;
+}
+.tradein__inner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.tradein__button {
+  height: 70px;
+  width: 330px;
+  text-transform: uppercase;
+  font-family: 'Parangon530C';
+  padding: 14px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: rgb(246, 174, 72);
+  cursor: pointer;
+  margin-bottom: 48px;
+}
+.tradein__button:hover {
+  background-color: rgb(79, 77, 230);
+  box-shadow: 5px 5px rgb(246, 174, 72);
+  transition: 0.7s;
+}
+/*======================================================================*/
+/*Care*/
+/*======================================================================*/
+.care {
+  position: relative;
+  margin-bottom: 222px;
+}
+.care__inner {
+  display: flex;
+}
+.care--bgc__title {
+  width: 506px;
+  height: 58px;
+  margin-bottom: 20px;
+  background: url(/img/8zab/BE_CAREFUL.png) no-repeat;
+  background-size: cover;
+}
+.care__title {
+  padding: 6px 0 0 40px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  font-family: 'Parangon530C';
+  font-size: 36px;
+}
+.care__text {
+  font-family: Arial;
+  font-size: 24px;
+  width: 596px;
+  height: 262px;
+  padding-left: 58px;
+  line-height: 2;
+}
+.care__item--img {
+  display: block;
+  height: 436px;
+  width: 660px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+/*======================================================================*/
+/*Form*/
+/*======================================================================*/
+.formbgc {
+  height: 568px;
+  background: url(/img/9form/IMG_3643.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.formbgc::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 130px;
+  position: relative;
+  z-index: 2;
+}
+.form__about {
+  height: 240px;
+  width: 333px;
+  color: #fff;
+}
+.form__title {
+  text-transform: uppercase;
+  font-family: 'Parangon530C';
+  font-size: 30px;
+  margin-bottom: 55px;
+}
+.form__text {
+  font-family: 'Arial';
+  font-size: 18px;
+}
+.form__input {
+  width: 620px;
+  height: 268px;
+  color: #fff;
+}
+.input__name {
+  width: 310px;
+  padding: 12px;
+  background: transparent;
+  border: 3px #fff solid;
+}
+.input__name:nth-child(2) {
+  border-left: none;
+}
+.input__email {
+  width: 620px;
+  padding: 12px;
+  background: transparent;
+  border: 3px #fff solid;
+  border-top: none;
+}
+.input__textaria {
+  width: 620px;
+  height: 164px;
+  padding: 12px;
+  background: transparent;
+  border: 3px #fff solid;
+  border-top: none;
+}
+input {
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+textarea {
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+::-webkit-input-placeholder {
+  font-family: 'Arial';
+  color: #fff;
+}
+::-moz-placeholder {
+  font-family: 'Arial';
+  color: #fff;
+}
+:-moz-placeholder {
+  font-family: 'Arial';
+  color: #fff;
+}
+:-ms-input-placeholder {
+  font-family: 'Arial';
+  color: #fff;
+}
+.input__text {
+  font-family: 'Arial';
+  font-size: 14px;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 60px;
+}
+.input__button {
+  height: 44px;
+  width: 144px;
+  text-transform: uppercase;
+  font-family: 'Parangon530C';
+  padding: 12px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: rgb(246, 174, 72);
+  cursor: pointer;
+}
+.input__button:hover {
+  background-color: rgb(79, 77, 230);
+  box-shadow: 5px 5px rgb(246, 174, 72);
+  transition: 0.7s;
 }
