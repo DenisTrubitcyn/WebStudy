@@ -580,7 +580,13 @@ input[type='checkbox'] {
   margin-right: 156px;
 }
 .partners__google {
+  background: url(../img/4one_searche/GooglePartnerLogosquare.jpg) no-repeat;
+  background-size: cover;
   margin-bottom: 42px;
+}
+.partners__yandex {
+  background: url(../img/4one_searche/fon.jpg) no-repeat;
+  background-size: cover;
 }
 /*======================================================================*/
 /*Our Projects*/
