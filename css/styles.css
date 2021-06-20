@@ -118,14 +118,38 @@ select {
   margin: 0 auto;
   z-index: 2;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1367px) {
   .container {
-    max-width: 970px;
+    max-width: 1024px;
+  }
+  .ourprojects .ourprojects__titlebgc .ourprojects__title {
+    left: 280px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   .container {
-    max-width: 750px;
+    max-width: 850px;
+  }
+  .window .window__title {
+    font-size: 35px;
+  }
+  .window .window__text {
+    font-size: 25px;
+  }
+  .navbar .navbar__inner {
+    font-size: 25px;
+  }
+  .study .study__inner {
+    margin-bottom: 70px;
+  }
+  .study .study__inner .study__item .study__text {
+    margin: 0;
+  }
+  .study .study__cards {
+    margin-bottom: 100px;
+  }
+  .study .study__cards .study__card {
+    padding: 0;
   }
 }
 @media (max-width: 767px) {
@@ -141,8 +165,8 @@ select {
 .window {
   display: flex;
   text-align: center;
-  padding: 204px 207px 125px 215px;
-  background: url(/img/1window/IMG_3644.jpg) no-repeat;
+  /* padding: 204px 207px 125px 215px; */
+  background: url(./img/1window/IMG_3644.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -163,6 +187,7 @@ select {
   letter-spacing: 2px;
   font-family: 'Parangon530C';
   font-size: 43px;
+  margin-top: 204px;
   margin-bottom: 40px;
 }
 .window__text {
@@ -174,6 +199,7 @@ select {
 .window__cards {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 125px;
 }
 .window__card {
   height: 165px;
@@ -282,6 +308,9 @@ select {
   font-weight: 400;
   margin-bottom: 25px;
 }
+input[type='checkbox'] {
+  display: none;
+}
 .study--card__button {
   display: flex;
   justify-content: space-between;
@@ -367,21 +396,21 @@ select {
   position: absolute;
   z-index: 1;
 }
-.dev__title {
+.dev--title {
   font-family: 'Parangon530C';
   font-size: 50px;
   position: relative;
   z-index: 1;
   margin-bottom: 50px;
 }
-.dev__cards {
+.dev--cards {
   display: flex;
   justify-content: space-evenly;
   position: relative;
   z-index: 1;
   margin-bottom: 130px;
 }
-.dev--card {
+.dev__card {
   width: 369px;
   height: 319px;
   background: url(/img/3dev/landing.jpg) no-repeat;
@@ -398,13 +427,13 @@ select {
   -webkit-transition: all 0.6s ease-out;
   cursor: pointer;
 }
-.dev--card:nth-child(2) {
+.dev__card:nth-child(2) {
   background: url(/img/3dev/web-sait.jpg);
 }
-.dev--card:nth-child(3) {
+.dev__card:nth-child(3) {
   background: url(/img/3dev/zakaz.jpg);
 }
-.dev--card::before {
+.dev__card::before {
   content: '';
   top: 0;
   left: 0;
@@ -427,60 +456,60 @@ select {
   position: absolute;
   z-index: 2;
 }
-.dev--card:hover {
+.dev__card:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 0.6s;
 }
-.dev--card:hover .dev--card__hover {
+.dev__card:hover .dev--card__hover {
   opacity: 1;
   visibility: visible;
 }
-.dev--card:hover .dev--card__title {
+.dev__card:hover .dev--card__title {
   transition: 0.55s;
   color: #00b9e7;
   border-bottom: 2px solid #00b9e7;
 }
-.dev--card:hover .dev--button__price {
+.dev__card:hover .dev--button__price {
   border: 2px solid #00b9e7;
   transition: 0.55s;
 }
-.dev--card:hover .dev--button__arrow {
+.dev__card:hover .dev--button__arrow {
   fill: #00b9e7;
   transition: 0.55s;
 }
-.dev--card:nth-child(2) .dev--card__title {
+.dev__card:nth-child(2) .dev--card__title {
   padding-bottom: 65px;
 }
-.dev--card:nth-child(2):hover .dev--card__hover {
+.dev__card:nth-child(2):hover .dev--card__hover {
   opacity: 1;
   visibility: visible;
   background-color: #ffcb00;
 }
-.dev--card:nth-child(2):hover .dev--card__title {
+.dev__card:nth-child(2):hover .dev--card__title {
   color: #ffcb00;
   border-bottom: 2px solid #ffcb00;
 }
-.dev--card:nth-child(2):hover .dev--button__price {
+.dev__card:nth-child(2):hover .dev--button__price {
   border: 2px solid #ffcb00;
 }
-.dev--card:nth-child(2):hover .dev--button__arrow {
+.dev__card:nth-child(2):hover .dev--button__arrow {
   fill: #ffcb00;
 }
-.dev--card:nth-child(3):hover .dev--card__hover {
+.dev__card:nth-child(3):hover .dev--card__hover {
   opacity: 1;
   visibility: visible;
   background-color: #66bf0d;
 }
-.dev--card:nth-child(3):hover .dev--card__title {
+.dev__card:nth-child(3):hover .dev--card__title {
   color: #66bf0d;
   border-bottom: 2px solid #66bf0d;
 }
-.dev--card:nth-child(3):hover .dev--button__price {
+.dev__card:nth-child(3):hover .dev--button__price {
   border: 2px solid #66bf0d;
 }
-.dev--card:nth-child(3):hover .dev--button__arrow {
+.dev__card:nth-child(3):hover .dev--button__arrow {
   fill: #66bf0d;
 }
 .dev--card__title {
