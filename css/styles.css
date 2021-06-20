@@ -166,7 +166,7 @@ select {
   display: flex;
   text-align: center;
   /* padding: 204px 207px 125px 215px; */
-  background: url(./img/1window/IMG_3644.jpg) no-repeat;
+  background: url(../img/1window/IMG_3644.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
@@ -265,7 +265,7 @@ select {
   font-size: 48px;
 }
 .study__item {
-  background-image: url(/img/2studiy/WE.png);
+  background-image: url(../img/2studiy/WE.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
@@ -346,7 +346,7 @@ input[type='checkbox'] {
 /*======================================================================*/
 .credo {
   text-align: center;
-  background: url(/img/3dev/IMG_3654.jpg) no-repeat;
+  background: url(../img/3dev/IMG_3654.jpg) no-repeat;
   background-size: cover;
   padding: 127px 0 160px;
   color: #fff;
@@ -390,7 +390,7 @@ input[type='checkbox'] {
 .dev--bgc__title {
   width: 670px;
   height: 530px;
-  background: url(/img/3dev/settings48.jpg) no-repeat;
+  background: url(../img/3dev/settings48.jpg) no-repeat;
   background-size: cover;
   top: -135px;
   position: absolute;
@@ -413,7 +413,7 @@ input[type='checkbox'] {
 .dev__card {
   width: 369px;
   height: 319px;
-  background: url(/img/3dev/landing.jpg) no-repeat;
+  background: url(../img/3dev/landing.jpg) no-repeat;
   background-size: cover;
   font-family: 'futura-bold-bt';
   font-size: 50px;
@@ -428,10 +428,10 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 .dev__card:nth-child(2) {
-  background: url(/img/3dev/web-sait.jpg);
+  background: url(../img/3dev/web-sait.jpg);
 }
 .dev__card:nth-child(3) {
-  background: url(/img/3dev/zakaz.jpg);
+  background: url(../img/3dev/zakaz.jpg);
 }
 .dev__card::before {
   content: '';
@@ -557,7 +557,7 @@ input[type='checkbox'] {
 .bethefirst--bgc__title {
   width: 627px;
   height: 64px;
-  background: url(/img/4one_searche/BE_THE_FIRST.png) no-repeat;
+  background: url(../img/4one_searche/BE_THE_FIRST.png) no-repeat;
   background-size: cover;
   margin-bottom: 32px;
 }
@@ -668,12 +668,12 @@ input[type='checkbox'] {
   transition: 0.6s;
 }
 .img1 {
-  background: url(/img/5project/1.jpg) no-repeat;
+  background: url(../img/5project/1.jpg) no-repeat;
   background-size: cover;
   width: 791.5px;
 }
 .img2 {
-  background: url(/img/5project/2.jpg) no-repeat;
+  background: url(../img/5project/2.jpg) no-repeat;
   background-size: cover;
   width: 791.5px;
 }
@@ -682,23 +682,23 @@ input[type='checkbox'] {
   display: flex;
 }
 .img3 {
-  background: url(/img/5project/3.jpg) no-repeat;
+  background: url(../img/5project/3.jpg) no-repeat;
   background-size: cover;
   width: 395px;
   height: 324px;
 }
 .img4 {
-  background: url(/img/5project/4.jpg) no-repeat;
+  background: url(../img/5project/4.jpg) no-repeat;
   background-size: cover;
   width: 395px;
 }
 .img5 {
-  background: url(/img/5project/5.jpg) no-repeat;
+  background: url(../img/5project/5.jpg) no-repeat;
   background-size: cover;
   width: 395px;
 }
 .img6 {
-  background: url(/img/5project/6.jpg) no-repeat;
+  background: url(../img/5project/6.jpg) no-repeat;
   background-size: cover;
   width: 395px;
 }
@@ -739,7 +739,7 @@ input[type='checkbox'] {
   width: 440px;
   height: 58px;
   margin-bottom: 20px;
-  background: url(/img/6adap/ADAPTATE.png) no-repeat;
+  background: url(../img/6adap/ADAPTATE.png) no-repeat;
   background-size: cover;
 }
 .adaptiv__title {
@@ -769,7 +769,7 @@ input[type='checkbox'] {
 /*Trade-in*/
 /*======================================================================*/
 .tradein {
-  background: url(/img/7trade-in/close-meeting.jpg) no-repeat;
+  background: url(../img/7trade-in/close-meeting.jpg) no-repeat;
   background-size: cover;
   position: relative;
   margin-bottom: 160px;
@@ -863,7 +863,7 @@ input[type='checkbox'] {
   width: 506px;
   height: 58px;
   margin-bottom: 20px;
-  background: url(/img/8zab/BE_CAREFUL.png) no-repeat;
+  background: url(../img/8zab/BE_CAREFUL.png) no-repeat;
   background-size: cover;
 }
 .care__title {
@@ -894,7 +894,7 @@ input[type='checkbox'] {
 /*======================================================================*/
 .formbgc {
   height: 568px;
-  background: url(/img/9form/IMG_3643.jpg) no-repeat;
+  background: url(../img/9form/IMG_3643.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }
