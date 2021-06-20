@@ -166,7 +166,7 @@ select {
   display: flex;
   text-align: center;
   /* padding: 204px 207px 125px 215px; */
-  background: url(./img/1window/IMG_3644.jpg) no-repeat;
+  background: url(../img/1window/IMG_3644.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   position: relative;
