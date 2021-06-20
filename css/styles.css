@@ -1,34 +1,34 @@
 @font-face {
   font-family: 'Exo2';
-  src: url(./fonts/Exo_2.ttf);
+  src: url(../fonts/Exo_2.ttf);
 }
 @font-face {
   font-family: 'UniSansCaps';
-  src: url(./fonts/unisanscaps.otf);
+  src: url(../fonts/unisanscaps.otf);
 }
 @font-face {
   font-family: 'futura-bold-bt';
-  src: url(./fonts/futura-bold-bt.ttf);
+  src: url(../fonts/futura-bold-bt.ttf);
 }
 @font-face {
   font-family: 'helveticaneuecyr-bold';
-  src: url(./fonts/helveticaneuecyr-bold.otf);
+  src: url(../fonts/helveticaneuecyr-bold.otf);
 }
 @font-face {
   font-family: 'HelveticaNeueCyr';
-  src: url(./fonts/HelveticaNeueCyr.otf);
+  src: url(../fonts/HelveticaNeueCyr.otf);
 }
 @font-face {
   font-family: 'MyriadProRegular';
-  src: url(./fonts/MyriadProRegular.otf);
+  src: url(../fonts/MyriadProRegular.otf);
 }
 @font-face {
   font-family: 'Parangon530C';
-  src: url(./fonts/Parangon530C.otf);
+  src: url(../fonts/Parangon530C.otf);
 }
 @font-face {
   font-family: 'Tahoma';
-  src: url(./fonts/Tahoma.ttf);
+  src: url(../fonts/Tahoma.ttf);
 }
 /*========================================================================*/
 
