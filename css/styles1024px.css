@@ -1,0 +1,111 @@
+@media (max-width: 1024px) {
+  .wrapper .container {
+    max-width: 900px;
+  }
+  .window {
+    background-size: contain;
+  }
+  .window .window__title {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .window .window__text {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .window .window__cards {
+    margin-bottom: 80px;
+  }
+  .navbar .navbar__inner {
+    font-size: 25px;
+  }
+  .study .study__inner {
+    margin-bottom: 70px;
+  }
+  .study .study__inner .study__item .study__text {
+    margin: 0;
+  }
+  .study .study__cards {
+    margin-bottom: 100px;
+  }
+  .study .study__cards .study__card {
+    padding: 0;
+  }
+  .dev--cards .dev__card {
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    padding: 40px 0 0 20px;
+    margin-left: 30px;
+  }
+  .dev--cards .dev__card .dev--card__title {
+    font-size: 40px;
+    width: 200px;
+  }
+  .dev--cards .dev__card .dev--card__button {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .dev--cards .dev__card .dev--card__button .dev--button__arrow {
+    height: 32px;
+    margin: 0 5px 0 5px;
+  }
+  .dev--cards .dev__card:nth-child(2) .dev--card__title {
+    padding-bottom: 50px;
+  }
+  .dev--cards .dev__card .dev--card__button .dev--button__price {
+    padding: 10px 10px;
+  }
+  .dev--cards .dev__card::before {
+    width: 250px;
+    height: 250px;
+  }
+  .dev--cards .dev--card__hover {
+    display: none;
+  }
+  .bethefirst__description .bethefirst--bgc__title {
+    margin-right: 20px;
+  }
+  .wrapper .bethefirst {
+    margin-bottom: 100px;
+  }
+  .bethefirst__inner .bethefirst__partners {
+    display: none;
+  }
+  .ourprojects__item .hover .hover__title {
+    font-size: 2.6em;
+  }
+  .ourprojects__site .ourprojects__biginner {
+    height: 512px;
+  }
+  .ourprojects__biginner .ourprojects__item {
+    width: 512px;
+  }
+  .ourprojects__site .ourprojects__smallinner .ourprojects__item {
+    width: 256px;
+    height: 256px;
+  }
+  .ourprojects__titlebgc .ourprojects__title {
+    left: 200px;
+  }
+  .adaptiv__inner .adaptiv__item--img .adaptiv__img {
+    display: none;
+  }
+  .tradein__card .tradiin__card--item .tradein__card--title {
+    font-size: 24px;
+  }
+  .tradein__card .tradein__card--text {
+    width: 300px;
+    height: 360px;
+  }
+  .care__inner .care__item--img {
+    display: none;
+  }
+  .form__about .form__title {
+    font-size: 28px;
+  }
+  .form__about .form__text {
+    font-size: 16px;
+  }
+}

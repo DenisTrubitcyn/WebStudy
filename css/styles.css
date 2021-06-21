@@ -1,3 +1,6 @@
+@import url('styles1024px.css');
+@import url('styles768px.css');
+
 @font-face {
   font-family: 'Exo2';
   src: url(../fonts/Exo_2.ttf);
@@ -117,38 +120,6 @@ select {
   max-width: 1250px;
   margin: 0 auto;
   z-index: 2;
-}
-
-@media (max-width: 1024px) {
-  .container {
-    max-width: 850px;
-  }
-  .window .window__title {
-    font-size: 35px;
-  }
-  .window .window__text {
-    font-size: 25px;
-  }
-  .navbar .navbar__inner {
-    font-size: 25px;
-  }
-  .study .study__inner {
-    margin-bottom: 70px;
-  }
-  .study .study__inner .study__item .study__text {
-    margin: 0;
-  }
-  .study .study__cards {
-    margin-bottom: 100px;
-  }
-  .study .study__cards .study__card {
-    padding: 0;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    max-width: none;
-  }
 }
 
 /*========================================================================*/
@@ -334,8 +305,7 @@ input[type='checkbox'] {
 .study__card:hover .study--card__icon {
   fill: #fff;
 }
-@media (max-width: 1024px) {
-}
+
 /*======================================================================*/
 /*Credo*/
 /*======================================================================*/
@@ -542,25 +512,7 @@ input[type='checkbox'] {
   position: relative;
   z-index: 2;
 }
-@media (max-width: 1024px) {
-  .dev--cards .dev__card {
-    width: 300px;
-    height: 280px;
-    font-size: 40px;
-    padding: 40px 0 0 20px;
-    margin-left: 30px;
-  }
-  .dev--cards .dev__card .dev--card__title {
-    width: 250px;
-  }
-  .dev--cards .dev__card::before {
-    width: 300px;
-    height: 280px;
-  }
-  .dev--cards .dev--card__hover {
-    display: none;
-  }
-}
+
 /*======================================================================*/
 /*Be the first*/
 /*======================================================================*/
@@ -586,7 +538,6 @@ input[type='checkbox'] {
   font-family: Arial;
   font-size: 24px;
   width: 596px;
-  height: 262px;
   padding-left: 58px;
   line-height: 2;
 }
@@ -750,14 +701,6 @@ input[type='checkbox'] {
   box-shadow: 2px 2px rgb(229, 146, 28);
   transition: 0.7s;
 }
-@media (max-width: 1024px) {
-  .ourprojects__item .hover .hover__title {
-    font-size: 2.6em;
-  }
-  .ourprojects__titlebgc .ourprojects__title {
-    left: 200px;
-  }
-}
 
 /*======================================================================*/
 /*Adaptiv*/
@@ -786,7 +729,6 @@ input[type='checkbox'] {
   font-family: Arial;
   font-size: 24px;
   width: 596px;
-  height: 262px;
   padding-left: 58px;
   line-height: 2;
 }
@@ -804,11 +746,7 @@ input[type='checkbox'] {
   background: url(../img/6adap/outline.png) no-repeat;
   background-size: cover;
 }
-@media (max-width: 1024px) {
-  .adaptiv__inner .adaptiv__item--img .adaptiv__img {
-    display: none;
-  }
-}
+
 /*======================================================================*/
 /*Trade-in*/
 /*======================================================================*/
@@ -893,15 +831,7 @@ input[type='checkbox'] {
   box-shadow: 5px 5px rgb(246, 174, 72);
   transition: 0.7s;
 }
-@media (max-width: 1024px) {
-  .tradein__card .tradiin__card--item .tradein__card--title {
-    font-size: 24px;
-  }
-  .tradein__card .tradein__card--text {
-    width: 300px;
-    height: 360px;
-  }
-}
+
 /*======================================================================*/
 /*Care*/
 /*======================================================================*/
@@ -930,7 +860,6 @@ input[type='checkbox'] {
   font-family: Arial;
   font-size: 24px;
   width: 596px;
-  height: 262px;
   padding-left: 58px;
   line-height: 2;
 }
@@ -942,11 +871,7 @@ input[type='checkbox'] {
   right: 0;
   z-index: 1;
 }
-@media (max-width: 1024px) {
-  .care__inner .care__item--img {
-    display: none;
-  }
-}
+
 /*======================================================================*/
 /*Form*/
 /*======================================================================*/
@@ -967,13 +892,12 @@ input[type='checkbox'] {
 }
 .form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 130px;
   position: relative;
   z-index: 2;
 }
 .form__about {
-  height: 240px;
   width: 333px;
   color: #fff;
 }
@@ -989,7 +913,6 @@ input[type='checkbox'] {
 }
 .form__input {
   width: 620px;
-  height: 268px;
   color: #fff;
 }
 .input__name {
@@ -1067,12 +990,4 @@ textarea {
   background-color: rgb(79, 77, 230);
   box-shadow: 5px 5px rgb(246, 174, 72);
   transition: 0.7s;
-}
-@media (max-width: 1024px) {
-  .form__about .form__title {
-    font-size: 28px;
-  }
-  .form__about .form__text {
-    font-size: 16px;
-  }
 }

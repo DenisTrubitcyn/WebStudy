@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  .wrapper .container {
+    max-width: 700px;
+  }
+  .window {
+    background-size: contain;
+  }
+  .window .window__title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .window .window__text {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .window .window__cards {
+    margin-bottom: 20px;
+  }
+  .window .window__cards .window__card {
+    width: 200px;
+    height: 150px;
+  }
+  .window .window__cards .window__card .card__title {
+    font-size: 40px;
+  }
+  .window .window__cards .window__card .card__text {
+    font-size: 15px;
+  }
+  .navbar .navbar__inner .navbar__item {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+  .wrapper .study {
+    margin-top: 70px;
+  }
+  .study .study__cards {
+    margin-bottom: 50px;
+  }
+  .study .study__cards .study__card {
+    padding: 5px;
+  }
+  .study .study__inner .study__item .study__text {
+    font-size: 15px;
+  }
+  .study .study__cards .study__card .study--card__text {
+    font-size: 15px;
+  }
+  .study .study__cards .study__card .study--card__title {
+    margin-bottom: 10px;
+  }
+  .wrapper .credo {
+    padding: 50px 0 100px;
+  }
+  .wrapper .credo .credo__title {
+    font-size: 30px;
+  }
+  .wrapper .credo .credo__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .dev .container ..dev--cards {
+    margin-bottom: 100px;
+  }
+  .dev--cards .dev__card {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    padding: 40px 0 0 20px;
+    margin-left: 30px;
+  }
+
+  .dev--cards .dev__card .dev--card__title {
+    width: 170px;
+  }
+  .dev--cards .dev__card .dev--card__button {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .dev--cards .dev__card .dev--card__button .dev--button__arrow {
+    height: 32px;
+    margin: 0 5px 0 5px;
+  }
+  .dev--cards .dev__card:nth-child(2) .dev--card__title {
+    padding-bottom: 48px;
+  }
+  .dev--cards .dev__card .dev--card__button .dev--button__price {
+    padding: 10px 10px;
+  }
+  .dev--cards .dev__card::before {
+    width: 200px;
+    height: 200px;
+  }
+  .dev--cards .dev--card__hover {
+    display: none;
+  }
+  .wrapper .bethefirst {
+    margin-bottom: 100px;
+  }
+  .bethefirst__inner .bethefirst__partners {
+    display: none;
+  }
+}
