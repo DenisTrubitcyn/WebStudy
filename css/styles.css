@@ -118,14 +118,7 @@ select {
   margin: 0 auto;
   z-index: 2;
 }
-@media (max-width: 1367px) {
-  .container {
-    max-width: 1024px;
-  }
-  .ourprojects .ourprojects__titlebgc .ourprojects__title {
-    left: 280px;
-  }
-}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 850px;
@@ -303,7 +296,7 @@ select {
   margin-bottom: 15px;
 }
 .study--card__text {
-  font-size: 15px;
+  font-size: 16px;
   font-family: arial;
   font-weight: 400;
   margin-bottom: 25px;
@@ -340,6 +333,8 @@ input[type='checkbox'] {
 }
 .study__card:hover .study--card__icon {
   fill: #fff;
+}
+@media (max-width: 1024px) {
 }
 /*======================================================================*/
 /*Credo*/
@@ -547,6 +542,25 @@ input[type='checkbox'] {
   position: relative;
   z-index: 2;
 }
+@media (max-width: 1024px) {
+  .dev--cards .dev__card {
+    width: 300px;
+    height: 280px;
+    font-size: 40px;
+    padding: 40px 0 0 20px;
+    margin-left: 30px;
+  }
+  .dev--cards .dev__card .dev--card__title {
+    width: 250px;
+  }
+  .dev--cards .dev__card::before {
+    width: 300px;
+    height: 280px;
+  }
+  .dev--cards .dev--card__hover {
+    display: none;
+  }
+}
 /*======================================================================*/
 /*Be the first*/
 /*======================================================================*/
@@ -736,6 +750,14 @@ input[type='checkbox'] {
   box-shadow: 2px 2px rgb(229, 146, 28);
   transition: 0.7s;
 }
+@media (max-width: 1024px) {
+  .ourprojects__item .hover .hover__title {
+    font-size: 2.6em;
+  }
+  .ourprojects__titlebgc .ourprojects__title {
+    left: 200px;
+  }
+}
 
 /*======================================================================*/
 /*Adaptiv*/
@@ -781,6 +803,11 @@ input[type='checkbox'] {
   height: 446px;
   background: url(../img/6adap/outline.png) no-repeat;
   background-size: cover;
+}
+@media (max-width: 1024px) {
+  .adaptiv__inner .adaptiv__item--img .adaptiv__img {
+    display: none;
+  }
 }
 /*======================================================================*/
 /*Trade-in*/
@@ -866,6 +893,15 @@ input[type='checkbox'] {
   box-shadow: 5px 5px rgb(246, 174, 72);
   transition: 0.7s;
 }
+@media (max-width: 1024px) {
+  .tradein__card .tradiin__card--item .tradein__card--title {
+    font-size: 24px;
+  }
+  .tradein__card .tradein__card--text {
+    width: 300px;
+    height: 360px;
+  }
+}
 /*======================================================================*/
 /*Care*/
 /*======================================================================*/
@@ -905,6 +941,11 @@ input[type='checkbox'] {
   position: absolute;
   right: 0;
   z-index: 1;
+}
+@media (max-width: 1024px) {
+  .care__inner .care__item--img {
+    display: none;
+  }
 }
 /*======================================================================*/
 /*Form*/
@@ -1026,4 +1067,12 @@ textarea {
   background-color: rgb(79, 77, 230);
   box-shadow: 5px 5px rgb(246, 174, 72);
   transition: 0.7s;
+}
+@media (max-width: 1024px) {
+  .form__about .form__title {
+    font-size: 28px;
+  }
+  .form__about .form__text {
+    font-size: 16px;
+  }
 }
